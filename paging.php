@@ -111,7 +111,7 @@ class Paging{
   /**
    * Jump to page
    * 
-   * @param $page Oldalszám
+   * @param $page 
    * @return void
    */
   public function goToPage($page){
@@ -119,7 +119,7 @@ class Paging{
 			$this->current_page = $page;
 			if ($this->storepagenum) $_SESSION['paging_'.$this->uid]['current_page'] = $this->current_page;
 		}
-  }
+  }   
 
   /**
    * Return with record number per page
