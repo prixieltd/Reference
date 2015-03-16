@@ -1,0 +1,2 @@
+This class is a builder class for uploading files to the server.
+It can be easily implemented, because it is native php.
