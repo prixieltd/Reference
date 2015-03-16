@@ -1,0 +1,16 @@
+The protected variables stores the regexes in a common class
+it makes the crawlers more easy to maintain.
+
+the index function handles the crawler's frontend display
+
+the doCrawler function handles the POST request for a new crawler process. It calls the crawlerProcess function itself.
+It does the main crawling process.
+
+getLinkString construct a link.
+
+freeFromHtmlTags removes the html tags from a string, and returns it:
+eg: "<b>Hello</b> world" -> "Hello world"
+
+getSiteContent returns the site HTML source
+
+getBaseDomain returns the base domain from a full link.
